@@ -1,8 +1,8 @@
 # EnviroGrad001Assessment
 A Java Spring Boot assessment by Enviro
 
-##SCENARIO
-###TASK
+## SCENARIO
+### TASK
 Write a basic implementation of a file parser to convert the contents of the file and
 store the records into a database.
 The base64 image data processed from the flat file must be converted into a
@@ -12,7 +12,7 @@ The database record (AccountProfile) must contain the following fields:
   1. Account holder name
   2. Account holder surname
   3. httpImageLink
-###Notes:
+### Notes:
 The httpImageLink must be a link exposed via a rest endpoint, which will give you
 access to the physical image file that was converted from the flat file.
 You should implement the following interface:
