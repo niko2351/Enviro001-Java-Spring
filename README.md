@@ -29,9 +29,11 @@ You should use the following rest controller:
 
 import org.springframework.core.io.FileSystemResource;
 import org.springframework.web.bind.annotation.*;
+
 @RestController
 @RequestMapping("/v1/api/image")
-public class ImageController {
+
+public class ImageController{
 
     @GetMapping(value="/{name}/{surname}")
     public FileSystemResource gethttpImageLink(@PathVariable String name, @PathVariable String surname){
