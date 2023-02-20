@@ -1,5 +1,5 @@
-# EnviroGrad001Assessment
-A Java Spring Boot assessment by Enviro
+# Java Spring Boot
+A Java Spring Boot project
 
 ## SCENARIO
 ### TASK
